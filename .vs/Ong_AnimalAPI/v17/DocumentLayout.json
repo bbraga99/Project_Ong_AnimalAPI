@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\dtos\\mapping\\dtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\dtos\\mapping\\dtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\dtos\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\dtos\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\repositories\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\repositories\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\repositories\\animalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\repositories\\animalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|d:\\firstapi\\ong\\ong_animalapi\\ong_animalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B4E7CED-D957-4E80-80DE-6E80AA53197E}|Ong_AnimalAPI\\Ong_AnimalAPI.csproj|solutionrelative:ong_animalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DTOMappingProfile.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\DTOs\\Mapping\\DTOMappingProfile.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\DTOs\\Mapping\\DTOMappingProfile.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\DTOs\\Mapping\\DTOMappingProfile.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\DTOs\\Mapping\\DTOMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:14:25.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimalDTO.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\DTOs\\AnimalDTO.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\DTOs\\AnimalDTO.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\DTOs\\AnimalDTO.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\DTOs\\AnimalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:13:46.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Controllers\\AnimalController.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Controllers\\AnimalController.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Controllers\\AnimalController.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Controllers\\AnimalController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:57:44.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAnimalRepository.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\IAnimalRepository.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Repositories\\IAnimalRepository.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\IAnimalRepository.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\IAnimalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:54:53.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnimalRepository.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\AnimalRepository.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Repositories\\AnimalRepository.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\AnimalRepository.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\AnimalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:53:00.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:42:48.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:38:59.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Program.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Program.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:29:45.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:28:45.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T00:47:26.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\appsettings.json",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\appsettings.json",
+              "RelativeToolTip": "Ong_AnimalAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-07T16:31:18.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Models\\Animal.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Models\\Animal.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Models\\Animal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:26:11.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Ong_AnimalAPI\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T00:49:15.094Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
