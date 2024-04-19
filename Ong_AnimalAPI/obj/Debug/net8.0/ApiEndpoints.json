@@ -127,5 +127,36 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Ong_AnimalAPI.Controllers.AnimalController",
+    "Method": "Get",
+    "RelativePath": "api/Animal/pagionation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ong_AnimalAPI.DTOs.AnimalDTO, Ong_AnimalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

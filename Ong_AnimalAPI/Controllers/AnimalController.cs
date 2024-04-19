@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Ong_AnimalAPI.DTOs;
 using Ong_AnimalAPI.Models;
+using Ong_AnimalAPI.Pagination;
 using Ong_AnimalAPI.Repositories;
 
 namespace Ong_AnimalAPI.Controllers
@@ -43,6 +45,26 @@ namespace Ong_AnimalAPI.Controllers
 
             return Ok(animalDto);
         }
+
+        [HttpGet("pagionation")]
+        public ActionResult<IEnumerable<AnimalDTO>> Get([FromQuery] AnimalsParameters animalsParameters)
+        {
+            var animals = _uof.AnimalRepository.GetAnimals(animalsParameters);
+
+            var metada = new
+            {
+                animals.TotalCount,
+                animals.PageSize,
+                animals.CurrentPage,
+                animals.TotalPages,
+                animals.HasNext,
+                animals.HasPrevious
+            };
+
+            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metada));
+
+            return Ok(_mapper.Map<IEnumerable<AnimalDTO>>(animals));  
+        } 
 
         [HttpPost]
         public ActionResult<AnimalDTO> Create(AnimalDTO animalDto)

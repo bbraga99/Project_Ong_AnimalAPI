@@ -135,3 +135,5 @@ D:\FirstAPI\ONG\Ong_AnimalAPI\Ong_AnimalAPI\obj\Debug\net8.0\Ong_AnimalAPI.pdb
 D:\FirstAPI\ONG\Ong_AnimalAPI\Ong_AnimalAPI\obj\Debug\net8.0\Ong_AnimalAPI.genruntimeconfig.cache
 D:\FirstAPI\ONG\Ong_AnimalAPI\Ong_AnimalAPI\obj\Debug\net8.0\ref\Ong_AnimalAPI.dll
 D:\FirstAPI\ONG\Ong_AnimalAPI\Ong_AnimalAPI\bin\Debug\net8.0\AutoMapper.dll
+D:\FirstAPI\ONG\Ong_AnimalAPI\Ong_AnimalAPI\obj\Debug\net8.0\Ong_AnimalAPI.sourcelink.json
+D:\FirstAPI\ONG\Ong_AnimalAPI\Ong_AnimalAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
