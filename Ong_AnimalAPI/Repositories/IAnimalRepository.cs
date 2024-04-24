@@ -5,6 +5,7 @@ namespace Ong_AnimalAPI.Repositories
 {
     public interface IAnimalRepository : IRepository<Animal>
     {
-        public PagedList<Animal>GetAnimals(AnimalsParameters animals);
+        public Task<PagedList<Animal>> GetAnimalsAsync(AnimalsParameters animals);
+        public Task<PagedList<Animal>> GetFilteredAnimalsAsync(AnimalsFilter animalFilter);
     }
 }

@@ -3,6 +3,6 @@
     public interface IUnitOfWork
     {
         IAnimalRepository AnimalRepository { get; }
-        void Commit();    
+        Task CommitAsync();    
     }
 }

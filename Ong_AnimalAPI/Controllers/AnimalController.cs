@@ -23,9 +23,9 @@ namespace Ong_AnimalAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<AnimalDTO>> GetAll()
+        public async Task<ActionResult<IEnumerable<AnimalDTO>>> GetAll()
         {
-            var animals = _uof.AnimalRepository.GetAll();
+            var animals = await _uof.AnimalRepository.GetAllAsync();
 
             if (animals is null) return NotFound();
 
@@ -35,9 +35,9 @@ namespace Ong_AnimalAPI.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public ActionResult<AnimalDTO> GetById(int id)
+        public async Task<ActionResult<AnimalDTO>> GetById(int id)
         {
-            var animal = _uof.AnimalRepository.GetById(p => p.AnimalID == id);
+            var animal = await _uof.AnimalRepository.GetByIdAsync(p => p.AnimalID == id);
 
             if (animal is null) return NotFound();
 
@@ -47,9 +47,9 @@ namespace Ong_AnimalAPI.Controllers
         }
 
         [HttpGet("pagionation")]
-        public ActionResult<IEnumerable<AnimalDTO>> Get([FromQuery] AnimalsParameters animalsParameters)
+        public async Task<ActionResult<IEnumerable<AnimalDTO>>> Get([FromQuery] AnimalsParameters animalsParameters)
         {
-            var animals = _uof.AnimalRepository.GetAnimals(animalsParameters);
+            var animals = await _uof.AnimalRepository.GetAnimalsAsync(animalsParameters);
 
             var metada = new
             {
@@ -66,8 +66,28 @@ namespace Ong_AnimalAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<AnimalDTO>>(animals));  
         } 
 
+        [HttpGet("filter/gender/pagionation")]
+        public async Task<ActionResult<IEnumerable<AnimalDTO>>> GetFiltered([FromQuery] AnimalsFilter animalsFilter)
+        {
+            var animals = await _uof.AnimalRepository.GetFilteredAnimalsAsync(animalsFilter);
+
+            var metada = new
+            {
+                animals.TotalCount,
+                animals.PageSize,
+                animals.CurrentPage,
+                animals.TotalPages,
+                animals.HasNext,
+                animals.HasPrevious
+            };
+
+            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metada));
+
+            return Ok(_mapper.Map<IEnumerable<AnimalDTO>>(animals));
+        }
+
         [HttpPost]
-        public ActionResult<AnimalDTO> Create(AnimalDTO animalDto)
+        public async Task<ActionResult<AnimalDTO>> Create(AnimalDTO animalDto)
         {
             if (animalDto is null) return BadRequest();
 
@@ -75,7 +95,7 @@ namespace Ong_AnimalAPI.Controllers
 
             _uof.AnimalRepository.Create(animal);
 
-            _uof.Commit();
+            await _uof.CommitAsync();
 
             var animalDtoCreated = _mapper.Map<AnimalDTO>(animal);
 
@@ -83,14 +103,14 @@ namespace Ong_AnimalAPI.Controllers
         }
 
         [HttpPut]
-        public ActionResult<AnimalDTO> Update(int id, AnimalDTO animalDto)
+        public async Task<ActionResult<AnimalDTO>> Update(int id, AnimalDTO animalDto)
         {
             var animal = _mapper.Map<Animal>(animalDto);
 
             if(id != animal.AnimalID) return NotFound();
 
             var animalUpdated = _uof.AnimalRepository.Update(animal);
-            _uof.Commit();
+            await _uof.CommitAsync();
 
             var animalDtoUpdated = _mapper.Map<AnimalDTO>(animalUpdated);
 
@@ -98,13 +118,13 @@ namespace Ong_AnimalAPI.Controllers
         }
 
         [HttpDelete]
-        public ActionResult<AnimalDTO> Delete(int id)
+        public async Task<ActionResult<AnimalDTO>> Delete(int id)
         {
-            var animal = _uof.AnimalRepository.GetById(p => p.AnimalID == id);
+            var animal = await _uof.AnimalRepository.GetByIdAsync(p => p.AnimalID == id);
             if (animal is null) return NotFound();
 
             _uof.AnimalRepository.Delete(animal);
-            _uof.Commit();
+            await _uof.CommitAsync();
 
             var animalRemovedDto = _mapper.Map<AnimalDTO>(animal);
 

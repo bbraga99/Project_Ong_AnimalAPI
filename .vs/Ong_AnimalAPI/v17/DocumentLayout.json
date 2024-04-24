@@ -90,8 +90,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\Pagination\\QueryStringParameters.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:03:05.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T09:03:05.433Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\Pagination\\AnimalsParameters.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:02:36.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T09:02:36.359Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\Pagination\\PagedList.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAIwBgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T22:34:29.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T22:34:29.738Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\DTOs\\Mapping\\DTOMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T14:14:25.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T14:14:25.565Z"
             },
             {
               "$type": "Document",
@@ -140,7 +136,7 @@
               "RelativeDocumentMoniker": "Ong_AnimalAPI\\Controllers\\AnimalController.cs",
               "ToolTip": "D:\\FirstAPI\\ONG\\Ong_AnimalAPI\\Ong_AnimalAPI\\Controllers\\AnimalController.cs",
               "RelativeToolTip": "Ong_AnimalAPI\\Controllers\\AnimalController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDsAAAAgAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwDsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T16:57:44.898Z",
               "EditorCaption": ""
@@ -155,8 +151,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\IAnimalRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:54:53.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T16:54:53.48Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\Repositories\\AnimalRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAowA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:53:00.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T16:53:00.792Z"
             },
             {
               "$type": "Document",
@@ -217,8 +211,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\Context\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T16:28:45.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T16:28:45.497Z"
             },
             {
               "$type": "Document",
@@ -230,8 +223,7 @@
               "RelativeToolTip": "Ong_AnimalAPI\\DTOs\\AnimalDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T14:13:46.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T14:13:46.452Z"
             },
             {
               "$type": "Document",
